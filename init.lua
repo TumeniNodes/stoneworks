@@ -626,6 +626,13 @@ stoneworks.register_arches_and_thin_wall("stonebrick", "default:stonebrick",
 		"Stone Brick Thin Wall",
 		default.node_sound_stone_defaults())
 
+stoneworks.register_arches_and_thin_wall("stone_block", "default:stone_block",
+		{cracky = 3},
+		{"default_stone_block.png"},
+		"Stone Block Arches",
+		"Stone Block Thin Wall",
+		default.node_sound_stone_defaults())
+
 stoneworks.register_arches_and_thin_wall("desert_stone", "default:desert_stone",
 		{cracky = 3},
 		{"default_desert_stone.png"},
@@ -647,6 +654,13 @@ stoneworks.register_arches_and_thin_wall("desert_stonebrick", "default:desert_st
 		"Desertstone Brick Thin Wall",
 		default.node_sound_stone_defaults())
 
+stoneworks.register_arches_and_thin_wall("desert_stone_block", "default:desert_stone_block",
+		{cracky = 3},
+		{"default_desert_stone_block.png"},
+		"Desertstone Block Arches",
+		"Desertstone Block Thin Wall",
+		default.node_sound_stone_defaults())
+
 stoneworks.register_arches_and_thin_wall("sandstone", "default:sandstone",
 		{crumbly = 1, cracky = 3},
 		{"default_sandstone.png"},
@@ -661,6 +675,13 @@ stoneworks.register_arches_and_thin_wall("sandstonebrick", "default:sandstonebri
 		"Sandstone Brick Thin Wall",
 		default.node_sound_stone_defaults())
 
+stoneworks.register_arches_and_thin_wall("sandstone_block", "default:sandstone_block",
+		{cracky = 2},
+		{"default_sandstone_block.png"},
+		"Sandstone Block Arches",
+		"Sandstone Block Thin Wall",
+		default.node_sound_stone_defaults())
+
 stoneworks.register_arches_and_thin_wall("obsidian", "default:obsidian",
 		{cracky = 1, level = 2},
 		{"default_obsidian.png"},
@@ -673,6 +694,13 @@ stoneworks.register_arches_and_thin_wall("obsidianbrick", "default:obsidianbrick
 		{"default_obsidian_brick.png"},
 		"Obsidian Brick Arches",
 		"Obsidian Brick Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("obsidian_block", "default:obsidian_block",
+		{cracky = 1, level = 2},
+		{"default_obsidian_block.png"},
+		"Obsidian Block Arches",
+		"Obsidian Block Thin Wall",
 		default.node_sound_stone_defaults())
 
 stoneworks.register_arches_and_thin_wall("brick", "default:brick",
