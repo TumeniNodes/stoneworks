@@ -1,4 +1,4 @@
--- [MOD] StoneWorks [stoneworks] (1.1) by TumeniNodes
+-- [MOD] StoneWorks [stoneworks] (1.2) by TumeniNodes
 
 stoneworks = {}
 
