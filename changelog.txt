@@ -1,3 +1,6 @@
 02/03/2017:
 chg-01: Updated with new _block nodes from Minetest 0.04.15
 chg-02: Update version to 1.1
+06/17/2017
+chg-01: Update with 0.4.16
+chg-02: Update version to 1.2
