@@ -605,18 +605,25 @@ stoneworks.register_arches_and_thin_wall("aspen_wood", "default:aspen_wood",
 		"Aspen Wood Thin Wall",
 		default.node_sound_wood_defaults())
 
+stoneworks.register_arches_and_thin_wall("brick", "default:brick",
+		{cracky = 3},
+		{"default_brick.png"},
+		"Brick Arches",
+		"Brick Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("clay", "default:clay",
+		{cracky = 3},
+		{"default_clay.png"},
+		"Clay Arches",
+		"Clay Thin Wall",
+		default.node_sound_stone_defaults())
+
 stoneworks.register_arches_and_thin_wall("stone", "default:stone",
 		{cracky = 3},
 		{"default_stone.png"},
 		"Stone Arches",
 		"Stone Thin Wall",
-		default.node_sound_stone_defaults())
-
-stoneworks.register_arches_and_thin_wall("cobble", "default:cobble",
-		{cracky = 3},
-		{"default_cobble.png"},
-		"Cobblestone Arches",
-		"Cobblestone Thin Wall",
 		default.node_sound_stone_defaults())
 
 stoneworks.register_arches_and_thin_wall("stonebrick", "default:stonebrick",
@@ -633,11 +640,18 @@ stoneworks.register_arches_and_thin_wall("stone_block", "default:stone_block",
 		"Stone Block Thin Wall",
 		default.node_sound_stone_defaults())
 
-stoneworks.register_arches_and_thin_wall("desert_stone", "default:desert_stone",
+stoneworks.register_arches_and_thin_wall("cobble", "default:cobble",
 		{cracky = 3},
-		{"default_desert_stone.png"},
-		"Desertstone Arches",
-		"Desertstone Thin Wall",
+		{"default_cobble.png"},
+		"Cobblestone Arches",
+		"Cobblestone Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("mossycobble", "default:mossycobble",
+		{cracky = 3},
+		{"default_mossycobble.png"},
+		"Mossy Cobblestone Arches",
+		"Mossy Cobblestone Thin Wall",
 		default.node_sound_stone_defaults())
 
 stoneworks.register_arches_and_thin_wall("desert_cobble", "default:desert_cobble",
@@ -645,6 +659,13 @@ stoneworks.register_arches_and_thin_wall("desert_cobble", "default:desert_cobble
 		{"default_desert_cobble.png"},
 		"Desert Cobble Arches",
 		"Desert Cobble Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("desert_stone", "default:desert_stone",
+		{cracky = 3},
+		{"default_desert_stone.png"},
+		"Desertstone Arches",
+		"Desertstone Thin Wall",
 		default.node_sound_stone_defaults())
 
 stoneworks.register_arches_and_thin_wall("desert_stonebrick", "default:desert_stonebrick",
@@ -659,6 +680,27 @@ stoneworks.register_arches_and_thin_wall("desert_stone_block", "default:desert_s
 		{"default_desert_stone_block.png"},
 		"Desertstone Block Arches",
 		"Desertstone Block Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("desert_sandstone", "default:desert_sandstone",
+		{crumbly = 1, cracky = 3},
+		{"default_desert_sandstone.png"},
+		"Desert Sandstone Arches",
+		"Desert Sandstone Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("desert_sandstone_brick", "default:desert_sandstone_brick",
+		{cracky = 2},
+		{"default_desert_sandstone_brick.png"},
+		"Desert Sandstone Brick Arches",
+		"Desert Sandstone Brick Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("desert_sandstone_block", "default:desert_sandstone_block",
+		{cracky = 2},
+		{"default_desert_sandstone_block.png"},
+		"Desert Sandstone Block Arches",
+		"Desert Sandstone Block Thin Wall",
 		default.node_sound_stone_defaults())
 
 stoneworks.register_arches_and_thin_wall("sandstone", "default:sandstone",
@@ -682,6 +724,27 @@ stoneworks.register_arches_and_thin_wall("sandstone_block", "default:sandstone_b
 		"Sandstone Block Thin Wall",
 		default.node_sound_stone_defaults())
 
+stoneworks.register_arches_and_thin_wall("silver_sandstone", "default:silver_sandstone",
+		{crumbly = 1, cracky = 3},
+		{"default_silver_sandstone.png"},
+		"Silver Sandstone Arches",
+		"Silver Sandstone Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("silver_sandstone_brick", "default:silver_sandstone_brick",
+		{cracky = 2},
+		{"default_silver_sandstone_brick.png"},
+		"Silver Sandstone Brick Arches",
+		"Silver Sandstone Brick Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("silver_sandstone_block", "default:silver_sandstone_block",
+		{cracky = 2},
+		{"default_silver_sandstone_block.png"},
+		"Silver Sandstone Block Arches",
+		"Silver Sandstone Block Thin Wall",
+		default.node_sound_stone_defaults())
+
 stoneworks.register_arches_and_thin_wall("obsidian", "default:obsidian",
 		{cracky = 1, level = 2},
 		{"default_obsidian.png"},
@@ -703,11 +766,53 @@ stoneworks.register_arches_and_thin_wall("obsidian_block", "default:obsidian_blo
 		"Obsidian Block Thin Wall",
 		default.node_sound_stone_defaults())
 
-stoneworks.register_arches_and_thin_wall("brick", "default:brick",
-		{cracky = 3},
-		{"default_brick.png"},
-		"Brick Arches",
-		"Brick Thin Wall",
+stoneworks.register_arches_and_thin_wall("bronzeblock", "default:bronzeblock",
+		{cracky = 1, level = 2},
+		{"default_bronze_block.png"},
+		"Bronze Block Arches",
+		"Bronze Block Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("coalblock", "default:coalblock",
+		{cracky = 1, level = 2},
+		{"default_coal_block.png"},
+		"Coal Block Arches",
+		"Coal Block Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("copperblock", "default:copperblock",
+		{cracky = 1, level = 2},
+		{"default_copper_block.png"},
+		"Copper Block Arches",
+		"Copper Block Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("diamondblock", "default:diamondblock",
+		{cracky = 1, level = 2},
+		{"default_diamond_block.png"},
+		"Diamond Block Arches",
+		"Diamond Block Thin Wall",
+		default.node_sound_stone_defaults())
+
+stoneworks.register_arches_and_thin_wall("goldblock", "default:goldblock",
+		{cracky = 1, level = 2},
+		{"default_gold_block.png"},
+		"Gold Block Arches",
+		"Gold Block Thin Wall",
+		default.node_sound_stone_defaults())
+
+--[[stoneworks.register_arches_and_thin_wall("ironblock", "default:ironblock",
+		{cracky = 1, level = 2},
+		{"default_iron_block.png"},
+		"Iron Block Arches",
+		"Iron Block Thin Wall",
+		default.node_sound_stone_defaults())]]--
+
+stoneworks.register_arches_and_thin_wall("meseblock", "default:meseblock",
+		{cracky = 1, level = 2},
+		{"default_mese_block.png"},
+		"Mese Block Arches",
+		"Mese Block Thin Wall",
 		default.node_sound_stone_defaults())
 
 stoneworks.register_arches_and_thin_wall("steelblock", "default:steelblock",
@@ -717,12 +822,13 @@ stoneworks.register_arches_and_thin_wall("steelblock", "default:steelblock",
 		"Steel Block Thin Wall",
 		default.node_sound_stone_defaults())
 
-stoneworks.register_arches_and_thin_wall("copperblock", "default:copperblock",
+stoneworks.register_arches_and_thin_wall("tinblock", "default:tinblock",
 		{cracky = 1, level = 2},
-		{"default_copper_block.png"},
-		"Copper Block Arches",
-		"Copper Block Thin Wall",
+		{"default_tin_block.png"},
+		"Tin Block Arches",
+		"Tin Block Thin Wall",
 		default.node_sound_stone_defaults())
+
 
 minetest.register_node("stoneworks:highironfence", {
 	description = "StoneWorks high ironfence",
